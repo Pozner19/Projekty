@@ -9,7 +9,6 @@ class WizzairRegistration(unittest.TestCase):
         self.driver.maximize_window()
         self.driver.get("https://wizzair.com/pl-pl/main-page/#/")
 
-
     def test_invalid_email(self):
         driver = self.driver
         zaloguj_btn = driver.find_element_by_css_selector("#app > header > div.header__inner > div > nav > ul > li:nth-child(7) > button")
